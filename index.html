@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Gerenciamento de Estoque</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Sistema de Gerenciamento de Estoque</h1>
+
+    <div id="produto-form">
+        <h2>Adicionar Produto</h2>
+        <input type="text" id="nome" placeholder="Nome do Produto">
+        <input type="number" id="quantidade" placeholder="Quantidade">
+        <button onclick="adicionarProduto()">Adicionar</button>
+    </div>
+
+    <div id="estoque">
+        <h2>Estoque</h2>
+        <ul id="lista-produtos">
+      
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
